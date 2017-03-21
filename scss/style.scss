@@ -12,7 +12,7 @@
 
 /* BASE STYLES */
 @import "app/base/base";
-@import "app/base/component_mixins";
+@import "app/base/component-mixins";
 
 /** LAYOUT **/
 @import "app/layout/container";
@@ -28,11 +28,12 @@
 
 /** HELPERS **/
 @import "app/helpers/accessibility";
-@import "app/helpers/desktop_mediaqueries";
+@import "app/helpers/desktop-mediaqueries";
 @import "app/helpers/helpers";
 
 /** COMPONENTS **/
 @import "app/components/buttons";
+@import "app/components/forms";
 @import "app/components/icons";
 @import "app/components/links";
 @import "app/components/texts";
