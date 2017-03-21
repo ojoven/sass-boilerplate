@@ -24,6 +24,7 @@ The structure is the following:
 		* _icons.scss
 		* _links.scss
 		* _texts.scss
+		* _titles.scss
 		* _thumbnails.scss
 	* helpers/ (helpers: accessibility, print...)
 		* _accessibility.scss
