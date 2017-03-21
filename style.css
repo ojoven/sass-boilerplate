@@ -60,10 +60,6 @@ sup, sub { font-size: 50%; vertical-align: baseline; position: relative; top: -0
 
 sub { top: 0.4em; }
 
-input { -webkit-appearance: none; border-radius: 0; }
-
-input[type="checkbox"] { -webkit-appearance: checkbox; }
-
 @media (max-width: 980px) { html, body { height: auto; } }
 @media (max-width: 767px) { h1, h2, h3 { font-size: 22px; line-height: 1.2; }
   hr { height: 1px; width: 90%; } }
@@ -95,6 +91,10 @@ input[type="checkbox"] { -webkit-appearance: checkbox; }
 @media (max-width: 767px) { .just-mobile { display: block !important; }
   .hide-mobile { display: none !important; } }
 .hidden { display: none !important; }
+
+input[type="checkbox"] { -webkit-appearance: checkbox; }
+
+input { -webkit-appearance: none; border-radius: 0; }
 
 /** COMPONENTS **/
 .btn { -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; transition: all 0.5s ease; display: inline-block; font-size: 16px; line-height: 1.2; padding: 10px 25px 10px 20px; text-decoration: none; text-transform: uppercase; text-align: center; }

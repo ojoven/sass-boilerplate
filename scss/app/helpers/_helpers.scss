@@ -8,6 +8,16 @@
   display: none !important;
 }
 
+// Form styling
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
 // ==============================================
 // MOBILE
 // ==============================================
