@@ -47,7 +47,7 @@ The structure is the following:
 
 Some additional notes:
 ---------------------------
-* Please consider this structure as the base from where to create new SCSS files (components, pages, etc.)
-* The media queries are not in different files, but included at the bottom of each of the file.
+* Please consider this structure as the base from where to create new SCSS files (new components, pages, etc.)
+* This is a personal customization based on Hugo Giraudel's Sass boilerplate and already successfully used on several projects
 * Some of the files include additional instructions or examples on how to use them
 * If you have any doubt or suggestion please contact me on http://twitter.com/ojoven
