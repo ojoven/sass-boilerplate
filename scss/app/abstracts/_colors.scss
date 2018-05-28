@@ -7,15 +7,14 @@
 // The method to create the name is: "Closest standard color" name + "Name that color" name (brown + dark ebony)
 
 // Example colors
-$greySilver: #cccccc;
+$greySilver: #ccc;
 $blackTundora: #444;
 $creamFoam: #eaf7fd;
-$creamSatinLinen: #E1DECE;
+$creamSatinLinen: #e1dece;
 
 // Basic colors
-$white: #ffffff;
+$white: #fff;
 $black: #000;
-
 
 // NOW WE DEFINE FUNCTIONS
 
@@ -26,8 +25,8 @@ $underlineColor: $greySilver;
 $greySeparator: $greySilver;
 
 // Gradients
-%exampleCreamGradient {
-  @include bbg(top, bottom, $creamFoam, $creamSatinLinen);
+%example-cream-gradient {
+	@include bbg(top, bottom, $creamFoam, $creamSatinLinen);
 }
 
 // Note: custom function colors are included in their belonging files

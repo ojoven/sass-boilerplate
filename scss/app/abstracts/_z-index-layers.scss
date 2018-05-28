@@ -5,11 +5,10 @@
 // Use as follows
 // z-index: z($layers, backgrounds); --> will give us 1
 
-$layers:
-  backgrounds,
-    afterBackgrounds,
-      overlays,
-        topLevelElements;
+$layers: backgrounds,
+afterBackgrounds,
+overlays,
+topLevelElements;
 
 // Backgrounds: immediate z-indexes (1)
 // After Backgrounds: just after backgrounds (2) but below overlays, modals and headers
@@ -18,24 +17,24 @@ $layers:
 // Function that will return the final z-index value based on the list above
 @function z($list, $element) {
 
-  // Special case -1
-  @if $element==negative {
-    @return -1;
-  }
+	// Special case -1
+	@if $element == negative {
+		@return -1;
+	}
 
-  // Special case 0
-  @if $element==zero {
-    @return 0;
-  }
+	// Special case 0
+	@if $element == zero {
+		@return 0;
+	}
 
-  // Default cases, based on the index of the element in the list
-  $z-index: index($list, $element);
+	// Default cases, based on the index of the element in the list
+	$z-index: index($list, $element);
 
-  @if $z-index {
-    @return $z-index;
-  }
+	@if $z-index {
+		@return $z-index;
+	}
 
-  // If the element is not in the list, show a warning
-  @warn 'There is no item "#{$element}" in this list; choose one of: #{$list}';
-  @return null;
+	// If the element is not in the list, show a warning
+	@warn 'There is no item "#{$element}" in this list; choose one of: #{$list}'; // sass-lint:disable-line no-warn
+	@return null;
 }

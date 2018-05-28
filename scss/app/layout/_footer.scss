@@ -4,26 +4,20 @@
 
 // Footer
 footer {
-
+	padding: 20px;
 }
 
 // ==============================================
 // IPAD LANDSCAPE
 // ==============================================
-@include ipadLandscape {
-
-}
+// @include ipadLandscape { }
 
 // ==============================================
 // IPAD PORTRAIT
 // ==============================================
-@include ipadPortrait {
-
-}
+// @include ipadPortrait { }
 
 // ==============================================
 // MOBILE
 // ==============================================
-@include mobile {
-
-}
+// @include mobile { }

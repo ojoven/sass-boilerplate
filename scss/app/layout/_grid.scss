@@ -5,19 +5,21 @@
 // 2 columns
 .grid {
 
-  &.row50 {
+	&.row50 {
 
-    > .container {
-      @extend %clearfix;
-      > * {
-        width: 46%;
-        float: left;
-        &:first-child {
-          margin-right: 4%;
-        }
-      }
-    }
+		> .container {
+			@extend %clearfix;
 
-  }
+			> * {
+				width: 46%;
+				float: left;
+
+				&:first-child {
+					margin-right: 4%;
+				}
+			}
+		}
+
+	}
 
 }

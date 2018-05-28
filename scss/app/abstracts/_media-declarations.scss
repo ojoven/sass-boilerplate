@@ -9,35 +9,35 @@ $desktop-width: 1024px;
 
 // TABLET LANDSCAPE
 @mixin littleDesktop {
-  @media (max-width: #{$desktop-width}) {
-    @content;
-  }
+	@media (max-width: #{$desktop-width}) {
+		@content;
+	}
 }
 
 // TABLET LANDSCAPE
 @mixin ipadLandscape {
-  @media (min-width: #{$tablet-width + 1px}) and (max-width: #{$desktop-width}) {
-    @content;
-  }
+	@media (min-width: #{$tablet-width + 1px}) and (max-width: #{$desktop-width}) {
+		@content;
+	}
 }
 
 // TABLET PORTRAIT
 @mixin ipadPortrait {
-  @media (max-width: #{$tablet-width}) {
-    @content;
-  }
+	@media (max-width: #{$tablet-width}) {
+		@content;
+	}
 }
 
 // MOBILE
 @mixin mobile {
-  @media (max-width: #{$mobile-width - 1px}) {
-    @content;
-  }
+	@media (max-width: #{$mobile-width - 1px}) {
+		@content;
+	}
 }
 
 // TINY MOBILE
 @mixin mobileTiny {
-  @media (max-width: #{$mobile-min-width}) {
-    @content;
-  }
+	@media (max-width: #{$mobile-min-width}) {
+		@content;
+	}
 }

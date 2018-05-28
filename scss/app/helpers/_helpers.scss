@@ -1,3 +1,4 @@
+// sass-lint:disable no-vendor-prefixes
 // ==============================================
 // HELPERS
 // ==============================================
@@ -5,22 +6,15 @@
 
 // Hiding elements
 .hidden {
-  display: none !important;
+	display: none !important;
 }
 
 // Form styling
-input[type="checkbox"] {
-  -webkit-appearance: checkbox;
-}
-
 input {
-  -webkit-appearance: none;
-  border-radius: 0;
-}
+	-webkit-appearance: none;
+	border-radius: 0;
 
-// ==============================================
-// MOBILE
-// ==============================================
-@include mobile {
-
+	&[type='checkbox'] {
+		-webkit-appearance: checkbox;
+	}
 }

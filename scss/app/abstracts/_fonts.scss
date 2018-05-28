@@ -1,9 +1,10 @@
+// sass-lint:disable no-duplicate-properties
 // ==============================================
 // FONTS
 // ==============================================
 
 // Mixin for fonts
-@mixin typo($t,$name) {
+@mixin typo($t, $name) {
 	@font-face {
 		font-family: $name;
 		src: url('fonts/#{$t}.eot');
@@ -19,12 +20,12 @@
 @include typo('LaramiePro-Regular', 'LaramiePro Regular');
 
 // List of fonts
-.regular {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;
+%regular {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
 }
 
-.bold {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 700;
+%bold {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
 }

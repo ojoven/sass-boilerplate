@@ -5,11 +5,11 @@
 // !important's are needed to compensate hierarchies
 
 .just-mobile {
-  display: none !important;
+	display: none !important;
 }
 
 .just-ipad {
-  display:none !important;
+	display: none !important;
 }
 
 // ==============================================
@@ -17,13 +17,13 @@
 // ==============================================
 @include ipadPortrait {
 
-  .just-ipad {
-    display: block !important;
-  }
+	.just-ipad {
+		display: block !important;
+	}
 
-  .hide-portrait {
-    display: none !important;
-  }
+	.hide-portrait {
+		display: none !important;
+	}
 }
 
 // ==============================================
@@ -31,11 +31,11 @@
 // ==============================================
 @include mobile {
 
-  .just-mobile {
-    display: block !important;
-  }
+	.just-mobile {
+		display: block !important;
+	}
 
-  .hide-mobile {
-    display: none !important;
-  }
+	.hide-mobile {
+		display: none !important;
+	}
 }
